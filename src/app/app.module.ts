@@ -9,7 +9,6 @@ import { OfficeComponent } from './office/office.component';
 import { HrComponent } from './hr/hr.component';
 import { SalesComponent } from './sales/sales.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
