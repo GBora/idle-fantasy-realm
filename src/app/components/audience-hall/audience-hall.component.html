@@ -1,0 +1,27 @@
+<div class="row">
+    <div *ngFor="let quest of availableQuests" class="col-12 mt-3 p-3 quest">
+        <h3 class="text-center">{{ quest.verb.name }}</h3>
+        <div class="row">
+            <div class="col-9">
+                {{ quest.completeDescription }}
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-block">
+                    Accept
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-5 p-3">
+        <div class="row">
+            <div class="col-9">
+
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-block">
+                    Get New Quests
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
