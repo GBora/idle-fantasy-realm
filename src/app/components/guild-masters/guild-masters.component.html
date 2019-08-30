@@ -1,1 +1,26 @@
-<p>guild-masters works!</p>
+<div class="row">
+    <div *ngFor="let hero of availableHeroes" class="col-12 mt-3 p-3 hero">
+        <h4>{{ hero.name }}</h4>
+        <div class="row">
+            <div class="col-9">
+                <h5>{{ hero.type.name }}</h5>
+                <div>
+                    {{ hero.type.description }}
+                </div>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-block">Recruit</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-3 p-3">
+        <div class="row">
+            <div class="col-9">
+            
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-block">Get New Heroes</button>
+            </div>
+        </div>
+    </div>
+</div>
