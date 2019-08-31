@@ -1,1 +1,12 @@
-<p>war-room works!</p>
+<div class="row mt-3">
+    <div class="col-12 mb-3">
+        <div class="row" *ngFor="let quest of quests | async">
+            <div class="col-9">
+                Party
+            </div>
+            <div>
+                {{ quest.completeDescription }}
+            </div>
+        </div>
+    </div>
+</div>
