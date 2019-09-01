@@ -1,5 +1,5 @@
 import { IQuest } from '../models/quest.model';
-import * as QuestActions from './../actions/quest.actions'
+import * as QuestActions from './../actions/quest.actions';
 
 export function reducer(state: IQuest[] = [], action: QuestActions.Actions) {
 
